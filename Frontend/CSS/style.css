@@ -31,13 +31,14 @@ nav {
     font-family: Verdana;
     padding: 5px 10px;
     margin: 10px 0px;
-    transition: 0.3s;
+    transition: 0.3s ease;
     font-size: 110%;
 }
 .link:hover {
     background-color: white;
     color: rgb(30,30,30);
     font-size: 125%;
+    transform: translateY(-5px);
 }
 .profile-name {
     position: absolute;
@@ -54,7 +55,41 @@ nav {
 }
 
 .main-container {
-    margin-left: 300px;
+    margin-left: 310px;
+    font-family: Verdana;
+    width: auto;
 
 }
+.Dashboard-Title {
+    background-color: gold;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow:0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.Dashboard-card {
+    display: flex;
+    gap: 2px;
+    
+}
+
+.cards {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(30,30, 30);
+    margin: 10px;
+    color: white;
+    border-radius: 12px;
+
+    transition: 0.3s ease;
+}
+.cards:hover {
+    transform: translateY(-10px);
+}
+
+
 
