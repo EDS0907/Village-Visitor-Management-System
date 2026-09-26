@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Verdana;
 }
 nav {
     width: 300px;
@@ -91,5 +92,33 @@ nav {
     transform: translateY(-10px);
 }
 
+.table-content {
+    justify-content: center;
+    text-align: center;
+}
 
+.table-disc {
+    font-family: Verdana;
 
+}
+
+.head-row {
+    background-color: gold;
+    color: black;
+
+}
+
+.table-content {
+    background-color: rgb(30,30,30);
+    color: white;
+    border-radius: 10px;
+    
+    transition: 0.3s ease;
+}
+
+.table-content:hover {
+    background-color: gold;
+    color: black;
+    
+
+}
